@@ -1,0 +1,50 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+button.primary {
+    background-color: lightslategrey;
+}
+
+.primary {
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+button {
+    background-color: lightcoral;
+}
+
+.temas {
+    border: solid 1px red;
+}
+
+.temas > div {
+    text-align: center;
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    /* border-left: solid 1px black; */
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.temas::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 600px and max-width: 899px) {
+    .temas > div {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 499px) {
+    .temas > div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "responsive",
+  "version": "1.0.0",
+  "description": "responsive website with sass and tsc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "sass src/sass:assets/styles --no-source-map",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "ITESO"
+  ],
+  "author": "FS",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "sass": "^1.38.2"
+  }
+}
